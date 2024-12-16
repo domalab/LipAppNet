@@ -93,6 +93,22 @@ model.fit(
 
 ---
 
+## Visualization with GIFs 🎥
+
+To enhance understanding, add GIFs of:
+
+1. **Input Video Frames**: Showing the lip movements of the speaker.
+2. **Predicted Text**: Overlay the predicted captions on the video.
+
+  ```
+  Add the following markdown:
+  ```markdown
+  ![Input Video Example](images/model.gif)
+  ```
+
+---
+
+
 ## Model Architecture 🎨
 
 ### Layers:
@@ -136,29 +152,6 @@ def CTCLoss(y_true, y_pred):
 
 ---
 
-## Visualization with GIFs 🎥
-
-To enhance understanding, add GIFs of:
-
-1. **Input Video Frames**: Showing the lip movements of the speaker.
-2. **Predicted Text**: Overlay the predicted captions on the video.
-
-### Suggested Placement:
-
-- Place GIFs in the "Overview" and "Testing with Videos" sections.
-- File structure:
-  ```
-  assets/
-    input_example.gif
-    prediction_example.gif
-  ```
-  Add the following markdown:
-  ```markdown
-  ![Input Video Example](assets/input_example.gif)
-  ![Predicted Text Example](assets/prediction_example.gif)
-  ```
-
----
 
 ## Callbacks 📊
 
