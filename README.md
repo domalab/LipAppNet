@@ -100,11 +100,7 @@ To enhance understanding, add GIFs of:
 1. **Input Video Frames**: Showing the lip movements of the speaker.
 2. **Predicted Text**: Overlay the predicted captions on the video.
 
-  ```
-  Add the following markdown:
-  ```markdown
-  ![Input Video Example](images/model.gif)
-  ```
+![Input Video Example](images/model.gif)
 
 ---
 
